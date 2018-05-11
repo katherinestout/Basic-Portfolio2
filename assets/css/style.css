@@ -16,6 +16,12 @@
     overflow: scroll;
     border-color: #cccccc;
   }
+
+
+  .catscontainer {
+      background-color:white;
+      padding: 30px;
+  }
   
   #Nameid{ padding: 20px;}
   #Emailid { padding: 20px;}
@@ -87,6 +93,13 @@
       font-family: 'Georgia', Times, Times New Roman, serif;
    
   }
+
+  h3{
+      background-color: teal; 
+      text-align: center;
+      padding: 10px;
+      color: white;
+  }
   
   
   hr { 
@@ -118,6 +131,40 @@
       padding-bottom: 20px;
       padding-top: 20px;
   }
+
+  #cat1{height: 200px; width: 250px; padding: 20px;float: left;
+
+  }
+
+#cat2{height: 200px; width: 250px; padding: 20px;float: left;
+
+}
+#cat3{height: 200px; width: 250px;padding: 20px;float: left;
+
+}
+#cat4{height: 200px; width: 250px;padding: 20px;float: left;
+
+}
+
+#cat5{height: 200px; width: 250px;padding: 20px;float: left;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
   #footer { 
       text-align: center;
       background-color:#666666;;
